@@ -2,11 +2,38 @@
     margin: 0px auto;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    
+
 }
 
 body {
     background-image: url(wall.png);
+    background-repeat: no-repeat;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(70,81,66);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(70,81,66);
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 /*Class Headers*/
@@ -35,7 +62,7 @@ body {
 
 .desc {
     font-size: 23px;
-    
+
     font-weight: bold;
 }
 
@@ -45,4 +72,22 @@ body {
 
 .extra {
     font-size: 15px;
+}
+
+a.newwall {
+    padding: 15px 20px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: rgb(238,238,238);
+    text-decoration: none;
+}
+
+a.newwall:hover {
+    padding: 15px 20px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: rgb(187,187,187);
+    text-decoration: none;
 }

@@ -1,0 +1,48 @@
+* {
+    margin: 0px auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+body {
+    background-image: url(wall.png);
+}
+
+/*Class Headers*/
+
+.gap {
+    font-size: 50px;
+}
+
+.gap2 {
+    font-size: 25px;
+}
+
+.welcome {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.gapextra {
+    font-size: 20px;
+}
+
+.taitel {
+    font-size: 69px;
+    font-weight: bolder;
+}
+
+.desc {
+    font-size: 23px;
+    
+    font-weight: bold;
+}
+
+.wall {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.extra {
+    font-size: 15px;
+}
